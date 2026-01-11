@@ -1,4 +1,3 @@
-
 const AboutMe = () => {
   return (
     <div className="about-me">
@@ -12,6 +11,7 @@ const AboutMe = () => {
         My favorite languages to work on are PHP, JavaScript, and HTML.
         After graduating, I aim to work as a Software Engineer building web applications. I will also have my own hosting/web dev company. 
         Outside of school, I enjoy playing video games, spending time with my dogs, and my sister.
+      </p>
     </div>
   );
 };
