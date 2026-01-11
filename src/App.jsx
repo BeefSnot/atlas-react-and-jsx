@@ -1,6 +1,8 @@
 import Header from './components/Header';
 import Section from './components/Section';
 import HelpfulResource from './components/HelpfulResource';
+import AboutMe from './components/AboutMe';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -34,6 +36,8 @@ function App() {
           link="https://react.dev/learn/thinking-in-react" 
         />
       </Section>
+      <AboutMe />
+      <Footer />
     </div>
   );
 }
